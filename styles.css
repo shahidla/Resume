@@ -505,6 +505,10 @@ li + li {
   overflow: hidden;
 }
 
+.chatbot-panel[hidden] {
+  display: none;
+}
+
 .chatbot-header {
   display: flex;
   align-items: flex-start;
