@@ -324,5 +324,32 @@
       <p>Shahid M Syed</p>
       <a href="#top">Back to top</a>
     </footer>
+
+    <section class="chatbot" aria-label="Resume chatbot">
+      <button class="chatbot-toggle" type="button" aria-expanded="false" aria-controls="chatbot-panel">
+        Chat
+      </button>
+      <div class="chatbot-panel" id="chatbot-panel" hidden>
+        <div class="chatbot-header">
+          <div>
+            <p class="eyebrow">Resume assistant</p>
+            <h2>Ask about Shahid</h2>
+          </div>
+          <button class="chatbot-close" type="button" aria-label="Close chatbot">x</button>
+        </div>
+        <div class="chatbot-messages" role="log" aria-live="polite"></div>
+        <div class="chatbot-prompts" aria-label="Suggested questions">
+          <button type="button">What is Shahid's SAP BTP experience?</button>
+          <button type="button">Show certifications</button>
+          <button type="button">What are the strongest projects?</button>
+        </div>
+        <form class="chatbot-form">
+          <label class="sr-only" for="chatbot-input">Ask a question</label>
+          <input id="chatbot-input" type="text" autocomplete="off" placeholder="Ask about skills, projects, certifications..." />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <script src="chatbot.js"></script>
   </body>
 </html>
