@@ -397,6 +397,39 @@ li + li {
   transform: translateY(-1px);
 }
 
+.connect-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.connect-list a {
+  min-height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
+.connect-list span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.connect-list a:hover,
+.connect-list a:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 12px 28px rgba(8, 79, 84, 0.11);
+  transform: translateY(-1px);
+}
+
 .footer {
   width: min(1180px, calc(100% - 32px));
   min-height: 90px;
@@ -661,6 +694,7 @@ li + li {
   .summary-grid,
   .community,
   .blog-list,
+  .connect-list,
   .project-grid,
   .skills-layout {
     grid-template-columns: 1fr;
