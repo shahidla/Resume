@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Architecture Case Studies | Shahid M Syed</title>
+    <meta
+      name="description"
+      content="Architecture case studies for Shahid M Syed across SAP S/4HANA modernisation, clean core, BTP, CAP/RAP, HANA performance, and AI-assisted SAP automation."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../index.html#certifications">Certifications</a>
+          <a href="../index.html#blogs">Blogs</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="article-main">
+      <header class="article-hero">
+        <p class="eyebrow">Architecture portfolio</p>
+        <h1>SAP architecture case studies for modernisation, performance, BTP, and AI-assisted automation.</h1>
+        <p class="article-meta">
+          Built from the detailed and current resume versions, with emphasis on architecture value,
+          delivery context, technologies, and measurable impact.
+        </p>
+      </header>
+
+      <section class="article-body case-study" id="clean-core">
+        <p class="eyebrow">Case study 01</p>
+        <h2>S/4HANA modernisation and clean-core readiness</h2>
+        <p>
+          Shahid supported clean-core and cloud-readiness initiatives across Commonwealth Bank,
+          Roy Hill, Department of Corrections New Zealand, Woolworths, and Services Australia.
+          The work focused on reducing legacy risk, preparing custom code for S/4HANA, and
+          aligning development patterns with cloud-compliant architecture.
+        </p>
+        <h3>Architecture approach</h3>
+        <ul>
+          <li>Assessed custom object usage with ABAP Call Monitor, SCMON, and SUSG.</li>
+          <li>Used SAP Custom Code Migration App, SAP Readiness Check, ATC, and Fiori Custom Code Migration.</li>
+          <li>Applied automated Quick Fix where suitable and manual remediation where business logic required architectural judgement.</li>
+          <li>Advocated tiered extensibility: Tier 1 cloud extensibility, Tier 2 cloud API enablement, and Tier 3 classic ABAP extensions.</li>
+          <li>Refactored custom developments using CDS Views, AMDP, SQL Monitor, and SQL Trace for performance and clean-core alignment.</li>
+        </ul>
+        <h3>Representative outcomes</h3>
+        <p>
+          Delivered modernised artefacts, retired or remediated legacy custom code, prepared
+          systems for upgrade and transformation programs, and helped teams understand practical
+          S/4HANA readiness decisions rather than treating clean core as only a compliance checklist.
+        </p>
+      </section>
+
+      <section class="article-body case-study" id="mcp">
+        <p class="eyebrow">Case study 02</p>
+        <h2>AI-assisted SAP RAP execution with an MCP server</h2>
+        <p>
+          As part of AI-assisted SAP automation exploration, Shahid built a Node.js-based MCP
+          server that exposes SAP RAP OData services as controlled tools. The goal is to allow
+          AI-assisted execution of business tasks without direct SAP GUI interaction.
+        </p>
+        <h3>Architecture approach</h3>
+        <ul>
+          <li>Used Node.js as the controlled tool server layer.</li>
+          <li>Exposed SAP RAP OData services through explicit tool contracts.</li>
+          <li>Separated AI orchestration from direct SAP interaction to reduce operational risk.</li>
+          <li>Designed the pattern so business operations can be mediated, audited, and constrained.</li>
+        </ul>
+        <h3>Why it matters</h3>
+        <p>
+          This positions SAP automation beyond chatbot demos. The architectural value is in
+          controlled execution: business services remain in SAP, while AI receives a narrow,
+          governed interface for task execution.
+        </p>
+      </section>
+
+      <section class="article-body case-study" id="performance">
+        <p class="eyebrow">Case study 03</p>
+        <h2>High-volume processing and HANA code pushdown</h2>
+        <p>
+          Shahid has repeatedly worked on performance-critical SAP programs where data volume
+          and runtime matter. Examples include Woolworths SAP CAR UDF developments processing
+          more than 40 billion records and Commonwealth Bank data scrambling reduced from
+          240 hours to 6 hours.
+        </p>
+        <h3>Architecture approach</h3>
+        <ul>
+          <li>Used ABAP on HANA, CDS, AMDP, RAP, SQL optimisation, and code pushdown.</li>
+          <li>Analysed runtime with Code Inspector, SQL Trace, AMDP Trace, PlanViz, and SQL Monitor.</li>
+          <li>Designed processing around partitioned tables, database-side execution, and scalable batch patterns.</li>
+          <li>Refactored legacy logic to reduce application-server work and exploit HANA execution plans.</li>
+        </ul>
+        <h3>Representative outcomes</h3>
+        <p>
+          Delivered measurable runtime improvement, enabled stable non-production system copy
+          processes, and supported machine-learning reporting and high-volume forecast data
+          calculations in retail environments.
+        </p>
+      </section>
+
+      <section class="article-body case-study" id="btp">
+        <p class="eyebrow">Case study 04</p>
+        <h2>SAP BTP, CAP, event-driven integration, and AI prototypes</h2>
+        <p>
+          The older resume makes the wider prototype portfolio clearer: CAP applications,
+          Integration Suite, Event Mesh, Kyma runtime, SAP IRPA, SAP Conversational AI, SAP AI
+          Business Services, Ethereum, Docker, microservices, HANA Cloud, MongoDB, Neo4J, and
+          OpenAI-based validation workflows.
+        </p>
+        <h3>Architecture approach</h3>
+        <ul>
+          <li>Used CAP to model services consuming SAP OData, REST APIs, and SAP HANA Cloud data.</li>
+          <li>Explored event-driven messaging with SAP Event Mesh, Solace, and Integration Suite.</li>
+          <li>Built Kyma and container-based prototypes using Node.js, Docker, and microservices.</li>
+          <li>Applied AI services for validation, classification, robotic process automation, and conversational flows.</li>
+        </ul>
+        <h3>Representative outcomes</h3>
+        <p>
+          Demonstrated practical ability to connect enterprise SAP architecture with modern
+          cloud, event, AI, and data-service patterns through working prototypes and public
+          SAP Community blogs.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Commonwealth Bank SAP TRBK HANA Modernisation",
+    "type": "S/4HANA modernisation, performance, AI-assisted automation",
+    "impact": "Reduced data scrambling runtime from 240 hours to 6 hours and built a Node.js MCP server for controlled SAP RAP OData execution."
+  },
+  {
+    "name": "Woolworths SAP CAR UDF",
+    "type": "High-volume forecasting and machine-learning reporting",
+    "impact": "Designed AMDP, CDS, and ABAP developments processing more than 40 billion records across partitioned tables."
+  },
+  {
+    "name": "Services Australia",
+    "type": "S/4HANA financial instruction processing and real-time payments",
+    "impact": "Designed CDS/BOPF, AMDP, Gateway/OData/CDS APIs, and anomaly detection support."
+  },
+  {
+    "name": "Stockland",
+    "type": "S/4HANA, REFX, PPM, BW-IP, SAP UI5",
+    "impact": "Built planning functions, CDS, AMDP, OData, Fiori applications, and Analysis for Office integration."
+  },
+  {
+    "name": "SAP Labs Mohawk and Mosaic",
+    "type": "Predictive analytics and HANA native development",
+    "impact": "Built PAL/APL/R models, HANA procedures, XSJS, XSODATA, and SAP UI5 solutions."
+  }
+]

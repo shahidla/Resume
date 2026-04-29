@@ -7,7 +7,14 @@
       links: [
         { label: "Skills", href: "#skills" },
         { label: "Blogs", href: "#blogs" },
+        { label: "Architecture", href: "architecture/" },
       ],
+    },
+    {
+      keywords: ["architecture", "architect", "clean core", "clean-core", "modernisation", "modernization", "readiness", "atc", "scmon", "susg", "tiered"],
+      answer:
+        "Shahid's architecture story is strongest around clean-core S/4HANA modernisation, tiered extensibility, SAP Readiness Check, ATC, SCMON/SUSG usage analysis, HANA code pushdown, BTP CAP/RAP services, and AI-assisted SAP automation.",
+      links: [{ label: "Architecture case studies", href: "architecture/" }],
     },
     {
       keywords: ["certification", "certified", "credly", "badge", "sap build", "fiori", "hana"],
@@ -24,7 +31,7 @@
     {
       keywords: ["performance", "optimization", "optimisation", "amdp", "cds", "rap", "abap"],
       answer:
-        "Shahid specialises in ABAP on HANA, CDS, AMDP, RAP, code pushdown, SQL optimisation, clean-core remediation, and high-volume SAP processing. Tools and technologies include Node.js, Python, R, JavaScript, HTML5, SAP UI5, SAP HANA, MongoDB, Neo4J, SAP BAS, Eclipse, VS Code, and Git.",
+        "Shahid specialises in ABAP on HANA, CDS, AMDP, RAP, code pushdown, SQL optimisation, clean-core remediation, and high-volume SAP processing. Tools and technologies include Node.js, Python, R, JavaScript, HTML5, SAP UI5, SAP HANA, HANA Graph/Text/Spatial, MongoDB, Neo4J, SAP BAS, Eclipse, SAP Web IDE, VS Code, Git, BODS, SAC, and Analysis for Office.",
       links: [
         { label: "Skills", href: "#skills" },
         { label: "Projects", href: "#projects" },
@@ -39,7 +46,7 @@
     {
       keywords: ["blog", "article", "community", "sap community", "writing"],
       answer:
-        "The site hosts selected SAP articles locally, including event-driven CAP on Kyma with agentic AI, Integration Suite with Solace and OpenAI validation, automated job screening, SAP Event Mesh, MQTT, and SAP UI Logging.",
+        "The site hosts selected SAP articles locally and points to the full SAP Community profile. Blog topics include event-driven CAP on Kyma with agentic AI, Integration Suite with Solace and OpenAI validation, automated job screening, SAP Event Mesh, MQTT, SAP UI Logging, HANA with MongoDB/Neo4J, HANA Text Analysis, and ABAP on HANA.",
       links: [{ label: "Blogs", href: "#blogs" }],
     },
     {

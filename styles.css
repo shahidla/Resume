@@ -272,6 +272,16 @@ h3 {
   color: var(--muted);
 }
 
+.text-link {
+  display: inline-flex;
+  margin-top: 16px;
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -462,6 +472,14 @@ li + li {
   border-radius: 8px;
   color: var(--accent-strong);
   font-weight: 700;
+}
+
+.case-study {
+  padding-bottom: 42px;
+}
+
+.case-study + .case-study {
+  margin-top: 42px;
 }
 
 .sr-only {
