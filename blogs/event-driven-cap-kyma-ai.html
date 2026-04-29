@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event Driven SAP CAP on Kyma with Agentic AI | Shahid M Syed</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#blogs">Blogs</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP BTP / CAP / Kyma / AI</p>
+          <h1>Event Driven SAP CAP on Kyma with Agentic AI and UI Auto Refresh</h1>
+          <p class="article-meta">Originally published on SAP Community, Dec 2025</p>
+        </header>
+        <div class="article-body">
+          <p>
+            This prototype demonstrates how a CAP application can evolve into an
+            event-driven architecture enriched with autonomous agentic AI. The objective was
+            to show how CAP can react to external events in real time, refresh the UI
+            automatically, and trigger an AI workflow that identifies duplicate citizens
+            without manual user action.
+          </p>
+          <p>
+            The solution combines SAP BTP Kyma runtime, SAP CAP, SAP HANA Cloud, SAP
+            Integration Suite, a Python-based agent, and OpenAI. The design uses CAP as the
+            service layer and event broadcaster, while the UI and AI agent independently
+            subscribe to the citizen stream.
+          </p>
+          <h2>End-to-end flow</h2>
+          <p>
+            The process starts in SAP Integration Suite. An iFlow inserts the citizen record
+            into HANA Cloud and then calls a CAP notification endpoint. CAP broadcasts the
+            event through a stream endpoint using Server-Sent Events. The Fiori Elements UI
+            listens to the stream and refreshes its binding when new data arrives.
+          </p>
+          <p>
+            In parallel, the Python agent listens to the same stream. When it receives a
+            CitizenCreated event, it retrieves the citizen via CAP OData, performs duplicate
+            detection, prompts OpenAI with a structured instruction set, and writes AI
+            suggestions back through CAP.
+          </p>
+          <h2>Agentic AI</h2>
+          <p>
+            The agent runs as a Python container in Kyma. It reacts to citizen events,
+            retrieves the relevant business object, evaluates likely duplicate records, and
+            writes the recommendation back to the application. To keep the result explainable,
+            the prototype records a thinking log with search inputs, candidate lists, scores,
+            final reasoning, and the selected action.
+          </p>
+          <div class="article-note">
+            This page is a self-hosted migration draft. Images and embedded media from SAP
+            Community were not copied.
+          </div>
+          <p>
+            <a href="https://community.sap.com/t5/technology-blog-posts-by-sap/event-driven-sap-cap-on-kyma-with-agentic-ai-and-ui-auto-refresh/ba-p/14280626" target="_blank" rel="noreferrer">
+              Original SAP Community article
+            </a>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

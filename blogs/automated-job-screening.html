@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Automated Job Screening with Integration Suite | Shahid M Syed</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#blogs">Blogs</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP Integration Suite / Adzuna / ChatGPT</p>
+          <h1>Automated Job Screening Using SAP Integration Suite, Adzuna, and ChatGPT</h1>
+          <p class="article-meta">Originally published on SAP Community, Nov 2025</p>
+        </header>
+        <div class="article-body">
+          <p>
+            This exercise explores SAP Integration Suite as an orchestration layer for
+            profile-based job screening. Instead of relying on simple keyword matching, the
+            prototype retrieves new SAP-related roles from Adzuna and classifies them against
+            a defined technical profile using a ChatGPT-based classifier.
+          </p>
+          <h2>Flow overview</h2>
+          <p>
+            A scheduled integration flow calls the Adzuna API, parses the response, filters
+            jobs already seen in previous runs, and sends each new role to the model for
+            classification. The resulting categories are aggregated into a single HTML email
+            with colour-coded outcomes.
+          </p>
+          <h2>Implementation pattern</h2>
+          <ul>
+            <li>Timer trigger starts the recurring flow.</li>
+            <li>Request parameters are prepared for role keywords, location, and pagination.</li>
+            <li>A data store tracks previously processed job ids.</li>
+            <li>Only unseen roles are sent to the classification model.</li>
+            <li>Results are formatted and sent as a consolidated summary email.</li>
+          </ul>
+          <p>
+            The design combines API connectivity, state management, model-based evaluation,
+            and notification into a repeatable fetch-filter-classify-notify cycle.
+          </p>
+          <div class="article-note">
+            This local page is a migration draft. Provide the original article export if you
+            want the complete long-form implementation details and screenshots moved over.
+          </div>
+          <p>
+            <a href="https://community.sap.com/t5/technology-blog-posts-by-sap/automated-job-screening-using-sap-integration-suite-adzuna-and-chatgpt/ba-p/14270454" target="_blank" rel="noreferrer">
+              Original SAP Community article
+            </a>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

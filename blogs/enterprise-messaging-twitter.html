@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAP Cloud Platform Enterprise Messaging with Twitter | Shahid M Syed</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#blogs">Blogs</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP Event Mesh / Open Connectors / Conversational AI</p>
+          <h1>SAP Cloud Platform Enterprise Messaging with Twitter</h1>
+          <p class="article-meta">Originally published on SAP Community, Oct 2020</p>
+        </header>
+        <div class="article-body">
+          <p>
+            This prototype aggregated learnings across SAP Cloud Platform Enterprise
+            Messaging, Open Connectors, SAP AI Business Services, and SAP Conversational AI.
+            The objective was to communicate across applications by using Twitter as an event
+            source and routing business actions through enterprise messaging.
+          </p>
+          <h2>Prototype design</h2>
+          <ul>
+            <li>Twitter is considered as the event source.</li>
+            <li>SAP Cloud Platform Open Connectors polls and receives Twitter data.</li>
+            <li>SAP Conversational AI determines the intent of the tweet.</li>
+            <li>SAP Enterprise Messaging coordinates communication across applications.</li>
+            <li>Node.js services handle webhooks from Open Connectors and Enterprise Messaging.</li>
+            <li>SAP ABAP code pulls messages, calls document extraction, and posts replies.</li>
+          </ul>
+          <h2>Scenarios</h2>
+          <p>
+            In one scenario, a tweet triggers Open Connectors, a webhook determines intent,
+            and a message is published to an Enterprise Messaging topic. SAP then pulls the
+            message, creates a service request, and replies to the original tweet with the
+            outcome.
+          </p>
+          <div class="article-note">
+            This is a local article migration without SAP Community media assets.
+          </div>
+          <p>
+            <a href="https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-platform-enterprise-messaging-with-twitter/ba-p/13468559" target="_blank" rel="noreferrer">
+              Original SAP Community article
+            </a>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

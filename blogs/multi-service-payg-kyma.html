@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multi-Service PAYG Application on Kyma | Shahid M Syed</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#blogs">Blogs</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP BTP Kyma / Docker / Ethereum / SAP AI Services</p>
+          <h1>Multi-Service PAYG Application: SAP BTP Kyma Runtime, Docker, Ethereum, SAP AI Business Services</h1>
+          <p class="article-meta">Originally published on SAP Community, Aug 2021</p>
+        </header>
+        <div class="article-body">
+          <p>
+            This prototype explored a pay-as-you-go, consumption-based application where
+            payments are handled through an Ethereum smart contract and application services
+            run as independent containers on SAP BTP Kyma runtime.
+          </p>
+          <h2>Components</h2>
+          <ul>
+            <li>A React application interacts with MetaMask and uploads files for processing.</li>
+            <li>A Node.js service handles uploaded files and calls SAP AI Business Services.</li>
+            <li>A Solidity smart contract accepts payment on the Rinkeby test network.</li>
+            <li>Docker and Docker Compose package the services for local execution.</li>
+            <li>Kompose helps convert the container setup for deployment to Kyma.</li>
+          </ul>
+          <h2>Prototype goal</h2>
+          <p>
+            The work combined microservices, containerization, Kubernetes deployment, Ethereum
+            payments, and SAP AI Business Services. It was built as a learning prototype to
+            understand how separately scalable services could work together in a
+            consumption-based application model.
+          </p>
+          <div class="article-note">
+            Images and screenshots from the SAP Community article were intentionally left out.
+          </div>
+          <p>
+            <a href="https://community.sap.com/t5/technology-blogs-by-sap/multi-service-payg-application-sap-btp-kyma-runtime-docker-ethereum-sap-ai/ba-p/13502402" target="_blank" rel="noreferrer">
+              Original SAP Community article
+            </a>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

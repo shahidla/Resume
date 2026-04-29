@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event Driven Integration with Solace and HANA | Shahid M Syed</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="../index.html#blogs">Blogs</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP Integration Suite / Solace / HANA Cloud</p>
+          <h1>Event Driven Integration Using SAP Integration Suite, Solace, HANA DB, and OpenAI Validation</h1>
+          <p class="article-meta">Originally published on SAP Community, Nov 2025</p>
+        </header>
+        <div class="article-body">
+          <p>
+            This prototype implements an event-driven pattern using SAP Integration Suite and
+            Solace. A JSON event is published to Solace and processed by an iFlow that applies
+            AI-based validation, routes the result, updates a HANA Cloud table, and records a
+            structured audit log.
+          </p>
+          <h2>Architecture</h2>
+          <p>
+            Solace acts as the event broker and SAP Integration Suite acts as the consumer and
+            processing layer. Once a message is received from the subscribed topic, the iFlow
+            creates a trace identifier, captures the original payload, performs an AI quality
+            check, and routes the message based on the validation result.
+          </p>
+          <p>
+            Two HANA Cloud tables support the process: one stores the final validated citizen
+            record, while the second stores processing logs including payload, status, trace
+            identifier, and error information.
+          </p>
+          <h2>Processing sequence</h2>
+          <ul>
+            <li>A JSON event is published to Solace.</li>
+            <li>SAP Integration Suite receives the subscribed event.</li>
+            <li>A trace id is generated and the original payload is captured.</li>
+            <li>OpenAI validates the payload using a structured request.</li>
+            <li>Valid messages update the citizen master table.</li>
+            <li>All messages are written to the audit log table.</li>
+          </ul>
+          <div class="article-note">
+            This self-hosted version preserves the article narrative without copying SAP
+            Community page chrome, comments, or embedded media.
+          </div>
+          <p>
+            <a href="https://community.sap.com/t5/technology-blog-posts-by-sap/event-driven-integration-using-sap-integration-suite-solace-hana-db-and/ba-p/14273167" target="_blank" rel="noreferrer">
+              Original SAP Community article
+            </a>
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
