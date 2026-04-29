@@ -6,7 +6,7 @@ const ALLOWED_ORIGINS = new Set([
 
 const MODEL = "@cf/meta/llama-3.1-8b-instruct";
 
-const RESUME_CONTEXT = `
+const DEFAULT_RESUME_CONTEXT = `
 Name: Shahid M Syed
 Headline: SAP Development Architect | SAP BTP Solution Architect | S/4HANA Modernisation | ABAP on HANA | CAP/RAP | AI-assisted SAP Automation
 
@@ -149,7 +149,7 @@ export default {
       },
       {
         role: "user",
-        content: `Resume context:\n${RESUME_CONTEXT}\n\nVisitor question:\n${question}`,
+        content: `Resume context:\n${env.RESUME_CONTEXT || DEFAULT_RESUME_CONTEXT}\n\nVisitor question:\n${question}`,
       },
     ];
 

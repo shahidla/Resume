@@ -2,17 +2,20 @@
   {
     "name": "Commonwealth Bank SAP TRBK HANA Modernisation",
     "type": "S/4HANA modernisation, performance, AI-assisted automation",
-    "impact": "Reduced data scrambling runtime from 240 hours to 6 hours and built a Node.js MCP server for controlled SAP RAP OData execution."
+    "impact": "Reduced data scrambling runtime from 240 hours to 6 hours and built a Node.js MCP server for controlled SAP RAP OData execution.",
+    "url": "projects/cba-trbk-hana.html"
   },
   {
     "name": "Woolworths SAP CAR UDF",
     "type": "High-volume forecasting and machine-learning reporting",
-    "impact": "Designed AMDP, CDS, and ABAP developments processing more than 40 billion records across partitioned tables."
+    "impact": "Designed AMDP, CDS, and ABAP developments processing more than 40 billion records across partitioned tables.",
+    "url": "projects/woolworths-car-udf.html"
   },
   {
     "name": "Services Australia",
     "type": "S/4HANA financial instruction processing and real-time payments",
-    "impact": "Designed CDS/BOPF, AMDP, Gateway/OData/CDS APIs, and anomaly detection support."
+    "impact": "Designed CDS/BOPF, AMDP, Gateway/OData/CDS APIs, and anomaly detection support.",
+    "url": "projects/services-australia-payments.html"
   },
   {
     "name": "Stockland",
@@ -23,5 +26,11 @@
     "name": "SAP Labs Mohawk and Mosaic",
     "type": "Predictive analytics and HANA native development",
     "impact": "Built PAL/APL/R models, HANA procedures, XSJS, XSODATA, and SAP UI5 solutions."
+  },
+  {
+    "name": "AI-assisted SAP RAP execution with MCP",
+    "type": "Governed AI-assisted SAP automation",
+    "impact": "Exposed SAP RAP OData services as controlled tools through a Node.js MCP server.",
+    "url": "projects/mcp-rap-ai-automation.html"
   }
 ]

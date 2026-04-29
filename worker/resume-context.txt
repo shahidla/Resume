@@ -1,0 +1,42 @@
+Name: Shahid M Syed
+Headline: SAP Development Architect | SAP BTP Solution Architect | S/4HANA Modernisation | ABAP on HANA | CAP/RAP | AI-assisted SAP Automation
+
+Summary:
+SAP Development Architect and SAP BTP Certified Solution Architect with 19 years of experience delivering large-scale enterprise SAP solutions across banking, retail, government, mining, procurement, and transformation programs.
+
+Core strengths:
+- Clean-core S/4HANA modernisation and custom code remediation.
+- High-volume HANA processing with ABAP on HANA, CDS, AMDP, RAP, and SQL optimisation.
+- SAP BTP, CAP, Integration Suite, Event Mesh, Kyma, and event-driven architecture.
+- AI-assisted SAP automation, including a Node.js MCP server for controlled SAP RAP OData execution.
+
+Proof points:
+- Reduced S/4HANA data scrambling runtime from 240 hours to 6 hours at Commonwealth Bank.
+- Processed more than 40 billion records in SAP CAR UDF developments at Woolworths.
+- Granted patent US10304013B2.
+- SAP Community contributor, blogger, TechEd speaker, hackathon winner, and 50+ openSAP Records of Achievement.
+
+Projects:
+- Commonwealth Bank: SAP TRBK HANA modernisation, DB2-to-HANA remediation, data scrambling using ABAP, CDS, AMDP, 97% runtime reduction, Node.js MCP server for RAP OData tools.
+- Woolworths: SAP CAR UDF forecast calculations and ML reporting, AMDP, CDS, ABAP, 40B+ records, SQL Trace, AMDP Trace, PlanViz.
+- Services Australia: Financial Instruction Documents, CDS-based BOPF, AMDP, Gateway/OData/CDS APIs, real-time payments, anomaly detection.
+- Queensland Health: SAP BTP CAP Digital Passport application consolidating SAP ECC and QHealth Platform employee information.
+- Stockland: S/4HANA, REFX, PPM, BW-IP, planning functions, ADSO, Analysis for Office, SAP UI5, OData, Fiori annotations.
+- SAP Labs: Mohawk predictive analytics, Mosaic HANA native visualisations, BMW SRM procurement add-on, BHP SAP UI Logging.
+
+Certifications:
+- SAP Certified Professional - Solution Architect - SAP BTP (P_BTPA_2408).
+- SAP Certified Development Associate - SAP HANA Cloud 1.0 (C_HCDEV_05).
+- SAP Certified Associate - Backend Developer - SAP Cloud Application Programming Model.
+- SAP Certified Development Associate - SAP BTP Extensions with SAP Cloud Application Programming Model (C_CPE_14).
+- SAP Certified Associate - Integration Developer (C_CPI_2404).
+- SAP Certified Associate - SAP Fiori Application Developer (C_FIORD).
+- SAP Certified Associate - SAP Build Developer (C_LCNC_2406).
+- SAP Certified Development Associate - SAP HANA 2.0 (C_HANADEV_13).
+- SAP Certified Development Specialist - ABAP for SAP HANA 2.0 (E_HANAAW_18).
+
+Contact:
+- Email: shahid.la@gmail.com
+- LinkedIn: https://www.linkedin.com/in/shahidmsyed/
+- GitHub: https://github.com/shahidla?tab=repositories
+- SAP Community: https://community.sap.com/t5/user/viewprofilepage/user-id/15422

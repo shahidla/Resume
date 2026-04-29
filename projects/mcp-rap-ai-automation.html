@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI-Assisted SAP RAP Execution with MCP | Shahid M Syed</title>
+    <meta name="description" content="Case study for a Node.js MCP server exposing SAP RAP OData services as controlled AI-assisted tools." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html">Shahid M Syed</a>
+        <div class="nav-links">
+          <a href="index.html">Case Studies</a>
+          <a href="../architecture/index.html">Architecture</a>
+          <a href="../index.html#blogs">Blogs</a>
+        </div>
+      </nav>
+    </header>
+    <main class="article-main">
+      <article>
+        <header class="article-hero">
+          <p class="eyebrow">SAP RAP / MCP / AI Automation</p>
+          <h1>AI-assisted SAP RAP execution with a controlled MCP server.</h1>
+          <p class="article-meta">Prototype and architecture pattern from SAP automation exploration.</p>
+        </header>
+        <div class="article-body">
+          <h2>Context</h2>
+          <p>
+            Built a Node.js-based MCP server to expose SAP RAP OData services as controlled
+            tools, enabling AI-assisted execution of business tasks without direct SAP GUI
+            interaction.
+          </p>
+          <h2>Architecture Contribution</h2>
+          <ul>
+            <li>Used Node.js as the tool boundary between AI orchestration and SAP business services.</li>
+            <li>Exposed RAP OData services through explicit tool contracts.</li>
+            <li>Kept business logic and transactional authority inside SAP.</li>
+            <li>Created a pattern where AI receives governed, narrow interfaces rather than unrestricted system access.</li>
+          </ul>
+          <h2>Impact</h2>
+          <p>
+            Demonstrated a practical path for AI-assisted SAP automation that can be constrained,
+            audited, and aligned with enterprise control expectations.
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

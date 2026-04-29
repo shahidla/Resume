@@ -9,6 +9,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://shahidla.github.io/Resume/projects/index.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/projects/cba-trbk-hana.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/projects/woolworths-car-udf.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/projects/mcp-rap-ai-automation.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/projects/services-australia-payments.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://shahidla.github.io/Resume/blogs/event-driven-cap-kyma-ai.html</loc>
     <priority>0.7</priority>
   </url>
@@ -37,4 +57,3 @@
     <priority>0.6</priority>
   </url>
 </urlset>
-

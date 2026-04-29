@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Shahid M Syed - SAP Development Architect</title>
+  <desc id="desc">Social preview image for Shahid M Syed resume website.</desc>
+  <rect width="1200" height="630" fill="#fbfcfd"/>
+  <path d="M0 502h1200v128H0z" fill="#eef5f5"/>
+  <g opacity="0.24" stroke="#0b6b6b" stroke-width="1">
+    <path d="M740 80h360v360H740z" fill="none"/>
+    <path d="M740 140h360M740 200h360M740 260h360M740 320h360M740 380h360"/>
+    <path d="M800 80v360M860 80v360M920 80v360M980 80v360M1040 80v360"/>
+  </g>
+  <text x="86" y="130" fill="#bd8b2d" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SAP DEVELOPMENT ARCHITECT</text>
+  <text x="84" y="238" fill="#17202a" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">Shahid M Syed</text>
+  <text x="88" y="318" fill="#17202a" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">S/4HANA Modernisation | SAP BTP | CAP/RAP</text>
+  <text x="88" y="378" fill="#5c6975" font-family="Arial, Helvetica, sans-serif" font-size="30">Clean core, high-volume HANA processing, Integration Suite,</text>
+  <text x="88" y="420" fill="#5c6975" font-family="Arial, Helvetica, sans-serif" font-size="30">event-driven architecture, and AI-assisted SAP automation.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="88" y="548" fill="#084f54" font-size="42">19 years</text>
+    <text x="300" y="548" fill="#084f54" font-size="42">97% runtime reduction</text>
+    <text x="742" y="548" fill="#084f54" font-size="42">40B+ records</text>
+  </g>
+</svg>

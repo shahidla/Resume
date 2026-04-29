@@ -36,3 +36,15 @@ Invoke-RestMethod `
 ```
 
 The Worker is intentionally restricted to answering from the resume context embedded in `worker.js`.
+
+## Optional Context Variable
+
+For easier maintenance, the Worker also supports a text environment variable:
+
+```text
+RESUME_CONTEXT
+```
+
+If `RESUME_CONTEXT` is configured in the Cloudflare dashboard, the Worker will use that value instead of the embedded fallback context in `worker.js`.
+
+This lets you update the chatbot knowledge without editing code.

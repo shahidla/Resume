@@ -32,6 +32,30 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(189, 139, 45, 0.55);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  padding: 10px 12px;
+  background: var(--ink);
+  color: white;
+  border-radius: 6px;
+  font-weight: 800;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -91,10 +115,28 @@ a {
   grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.58fr);
   gap: 44px;
   align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 36px -28px 36px auto;
+  width: min(42vw, 520px);
+  border: 1px solid rgba(11, 107, 107, 0.18);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(11, 107, 107, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(11, 107, 107, 0.08) 1px, transparent 1px);
+  background-size: 34px 34px;
+  opacity: 0.7;
+  pointer-events: none;
 }
 
 .hero-copy {
   max-width: 800px;
+  position: relative;
+  z-index: 1;
 }
 
 .eyebrow {
@@ -177,6 +219,8 @@ h3 {
 .impact-panel {
   display: grid;
   gap: 12px;
+  position: relative;
+  z-index: 1;
 }
 
 .impact-panel div {
@@ -233,6 +277,24 @@ h3 {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.project-card,
+.skills-layout article,
+.timeline article,
+.community > div,
+.summary-grid p {
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.project-card:hover,
+.skills-layout article:hover,
+.timeline article:hover,
+.community > div:hover,
+.summary-grid p:hover {
+  border-color: rgba(11, 107, 107, 0.35);
+  box-shadow: 0 12px 34px rgba(23, 32, 42, 0.08);
+  transform: translateY(-1px);
 }
 
 .summary-grid p {
@@ -534,6 +596,23 @@ li + li {
   margin-top: 42px;
 }
 
+.case-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.case-links a {
+  min-height: 96px;
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -715,6 +794,7 @@ li + li {
   .blog-list,
   .connect-list,
   .project-grid,
+  .case-links,
   .skills-layout {
     grid-template-columns: 1fr;
   }
@@ -722,6 +802,10 @@ li + li {
   .hero {
     min-height: auto;
     padding-top: 50px;
+  }
+
+  .hero::before {
+    display: none;
   }
 
   .impact-panel {
