@@ -7,14 +7,14 @@
       links: [
         { label: "Skills", href: "#skills" },
         { label: "Blogs", href: "#blogs" },
-        { label: "Architecture", href: "architecture/" },
+        { label: "Architecture", href: "architecture/index.html" },
       ],
     },
     {
       keywords: ["architecture", "architect", "clean core", "clean-core", "modernisation", "modernization", "readiness", "atc", "scmon", "susg", "tiered"],
       answer:
         "Shahid's architecture story is strongest around clean-core S/4HANA modernisation, tiered extensibility, SAP Readiness Check, ATC, SCMON/SUSG usage analysis, HANA code pushdown, BTP CAP/RAP services, and AI-assisted SAP automation.",
-      links: [{ label: "Architecture case studies", href: "architecture/" }],
+      links: [{ label: "Architecture case studies", href: "architecture/index.html" }],
     },
     {
       keywords: ["certification", "certified", "credly", "badge", "sap build", "fiori", "hana"],
