@@ -507,6 +507,25 @@ li + li {
   font-weight: 700;
 }
 
+.article-figure {
+  margin: 30px 0;
+}
+
+.article-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
+.article-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .case-study {
   padding-bottom: 42px;
 }
