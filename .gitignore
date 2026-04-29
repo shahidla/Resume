@@ -1,0 +1,9 @@
+~$*.docx
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+.wrangler/
+.dev.vars
+

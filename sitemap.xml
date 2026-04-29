@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://shahidla.github.io/Resume/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/architecture/index.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/event-driven-cap-kyma-ai.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/event-driven-integration-suite-solace.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/automated-job-screening.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/multi-service-payg-kyma.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/enterprise-messaging-twitter.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/s4hana-machine-learning-mqtt.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/blogs/sap-ui-logging.html</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>
+
