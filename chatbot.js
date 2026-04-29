@@ -148,6 +148,19 @@
   });
 
   close.addEventListener("click", closeChat);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !panel.hidden) {
+      closeChat();
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!panel.hidden && target instanceof Node && !panel.contains(target) && !toggle.contains(target)) {
+      closeChat();
+    }
+  });
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     ask(input.value);
