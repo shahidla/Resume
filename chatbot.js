@@ -12,19 +12,19 @@
     {
       keywords: ["certification", "certified", "credly", "badge", "sap build", "fiori", "hana"],
       answer:
-        "Shahid has verified SAP credentials including SAP BTP Solution Architect, SAP HANA Cloud, CAP backend developer, BTP Extensions with CAP, Integration Developer, Fiori Application Developer, SAP Build Developer, SAP HANA 2.0, and ABAP for SAP HANA.",
+        "Shahid has verified SAP credentials including SAP BTP Solution Architect, SAP HANA Cloud, CAP backend developer, BTP Extensions with CAP, Integration Developer, Fiori Application Developer, SAP Build Developer, SAP HANA 2.0, and ABAP for SAP HANA. The page also lists exam codes where available.",
       links: [{ label: "Certifications", href: "#certifications" }],
     },
     {
       keywords: ["project", "impact", "commonwealth", "commbank", "woolworths", "services australia", "scrambling"],
       answer:
-        "Key impact includes CBA TRBK HANA modernisation, a Node.js MCP server for SAP RAP OData services, a data scrambling framework that reduced runtime from 240 hours to 6 hours, Woolworths high-volume processing over 40B records, and Services Australia real-time payment work.",
+        "Key impact includes CBA TRBK HANA modernisation, a Node.js MCP server for SAP RAP OData services, a data scrambling framework that reduced runtime from 240 hours to 6 hours, Woolworths high-volume processing over 40B records, Services Australia real-time payment work, Stockland BW-IP/SAP UI5 delivery, and SAP Labs HANA/ML projects.",
       links: [{ label: "Projects", href: "#projects" }],
     },
     {
       keywords: ["performance", "optimization", "optimisation", "amdp", "cds", "rap", "abap"],
       answer:
-        "Shahid specialises in ABAP on HANA, CDS, AMDP, RAP, code pushdown, SQL optimisation, clean-core remediation, and high-volume SAP processing for performance-critical systems.",
+        "Shahid specialises in ABAP on HANA, CDS, AMDP, RAP, code pushdown, SQL optimisation, clean-core remediation, and high-volume SAP processing. Tools and technologies include Node.js, Python, R, JavaScript, HTML5, SAP UI5, SAP HANA, MongoDB, Neo4J, SAP BAS, Eclipse, VS Code, and Git.",
       links: [
         { label: "Skills", href: "#skills" },
         { label: "Projects", href: "#projects" },
