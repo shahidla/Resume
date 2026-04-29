@@ -320,7 +320,8 @@ li + li {
   gap: 10px;
 }
 
-.cert-list span {
+.cert-list span,
+.cert-list a {
   min-height: 42px;
   display: inline-flex;
   align-items: center;
@@ -330,6 +331,24 @@ li + li {
   border-radius: 6px;
   color: var(--accent-strong);
   font-weight: 800;
+}
+
+.cert-list a::after {
+  content: "Credly";
+  margin-left: 10px;
+  padding: 3px 7px;
+  background: var(--soft);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.cert-list a:hover,
+.cert-list a:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 10px 22px rgba(8, 79, 84, 0.1);
+  transform: translateY(-1px);
 }
 
 .community > div {
