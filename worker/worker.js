@@ -25,7 +25,7 @@ Experience timeline:
 - DyFlex Solutions contractor, Sydney: Nov 2024 to Feb 2025.
 - SAP Australia contractor, Sydney: Apr 2018 to Sep 2024.
 - SAP Labs India, Bangalore: Mar 2012 to Jan 2018.
-- Earlier consulting roles: Logikal Consulting, Deloitte, IBM India, Enteg Infotech.
+- Earlier consulting roles: Logikal Consulting, Deloitte, IBM India, Enteg Infotech, including ABAP delivery, Web Dynpro ABAP, design reviews, feasibility checks, object tracking, testing, support, and go-live activities.
 
 Architecture strengths:
 - Clean-core S/4HANA modernisation and custom code remediation.
@@ -50,7 +50,7 @@ Selected projects:
 - Queensland Health: Digital Passport application using SAP BTP CAP to consolidate employee information from SAP ECC and QHealth Platform.
 - Department of Corrections New Zealand: SAP Procurement upgrade preparation, custom analytical Fiori apps, app activation, role assignment, Adapt UI, SCMON, SUSG, Custom Code Migration App.
 - Services Australia: Financial Instruction Documents processing using CDS-based BOPF, AMDP code pushdown, Gateway/OData/CDS APIs, ABAP RESTful apps on S/4HANA, real-time payments, anomaly detection.
-- Stockland: S/4HANA, Project and Portfolio Management, REFX, BW-IP planning, ADSO, Analysis for Office, ABAP/HANA planning functions, CDS, AMDP, SAP UI5, OData, Fiori annotations.
+- Stockland: S/4HANA, Project and Portfolio Management, REFX, BW-IP planning, ADSO write-back flows, Analysis for Office integration, ABAP/HANA planning functions, CDS, AMDP, SAP UI5, OData, Fiori applications, analytical annotations.
 - Mohawk: Predictive analytics for carpet quality using SAP HANA PAL, APL, R Random Forest, CRISP-DM, stored procedures, XSJS, XSODATA, SAP UI5.
 - Mosaic: HANA native minefield visualisation with stored procedures, OData, XSJS, SAP UI5.
 - BMW: SRM indirect procurement add-on, ABAP, Web Dynpro ABAP, S/4HANA code pushdown, Office Open XML downloads.
@@ -79,6 +79,14 @@ Blogs and community:
 - SAP ABAP on SAP HANA.
 - SAP HANA Text Analysis using Twitter data.
 - SAP UI Logging.
+
+Awards and recognition:
+- Winner of Google TensorFlow IoT Challenge at SAP Labs.
+- What the Hack 2.0 finalist for real-time speech and predictive analytics.
+- Nominated for THE TITAN - CD BLR LOB 2016 Awards.
+- Multiple SAP Labs performance and peer-to-peer awards.
+- Appreciation notes from Deloitte and ENTEG.
+- SAP Community Silver contributor.
 
 Education:
 - Master of Business in Information Systems, Victoria University of Technology, Australia, December 2005.

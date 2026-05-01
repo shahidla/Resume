@@ -20,12 +20,14 @@
   {
     "name": "Stockland",
     "type": "S/4HANA, REFX, PPM, BW-IP, SAP UI5",
-    "impact": "Built planning functions, CDS, AMDP, OData, Fiori applications, and Analysis for Office integration."
+    "impact": "Built planning functions, ADSO write-back flows, Analysis for Office integration, CDS, AMDP, OData, SAP UI5, Fiori apps, and analytical annotations.",
+    "url": "projects/stockland-planning.html"
   },
   {
     "name": "SAP Labs Mohawk and Mosaic",
-    "type": "Predictive analytics and HANA native development",
-    "impact": "Built PAL/APL/R models, HANA procedures, XSJS, XSODATA, and SAP UI5 solutions."
+    "type": "Predictive analytics, HANA native development, procurement add-ons, and SAP UI Logging",
+    "impact": "Built PAL/APL/R models, HANA procedures, XSJS, XSODATA, SAP UI5 solutions, BMW SRM add-ons, and BHP SAP UI Logging extensions.",
+    "url": "projects/sap-labs-product-engineering.html"
   },
   {
     "name": "AI-assisted SAP RAP execution with MCP",

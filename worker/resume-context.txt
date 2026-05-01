@@ -21,8 +21,17 @@ Projects:
 - Woolworths: SAP CAR UDF forecast calculations and ML reporting, AMDP, CDS, ABAP, 40B+ records, SQL Trace, AMDP Trace, PlanViz.
 - Services Australia: Financial Instruction Documents, CDS-based BOPF, AMDP, Gateway/OData/CDS APIs, real-time payments, anomaly detection.
 - Queensland Health: SAP BTP CAP Digital Passport application consolidating SAP ECC and QHealth Platform employee information.
-- Stockland: S/4HANA, REFX, PPM, BW-IP, planning functions, ADSO, Analysis for Office, SAP UI5, OData, Fiori annotations.
-- SAP Labs: Mohawk predictive analytics, Mosaic HANA native visualisations, BMW SRM procurement add-on, BHP SAP UI Logging.
+- Stockland: S/4HANA, REFX, PPM, BW-IP planning functions, ADSO write-back flows, Analysis for Office integration, SAP UI5, OData, CDS, AMDP, Fiori apps, analytical annotations.
+- SAP Labs: Mohawk predictive analytics with PAL, APL, R, and CRISP-DM; Mosaic HANA native visualisations with procedures, XSJS, XSODATA, and SAP UI5; BMW SRM procurement add-ons and Web Dynpro ABAP enhancements; BHP SAP UI Logging on LOGWIN.
+- Earlier consulting: ABAP, ABAP HR, Web Dynpro ABAP, RICEF, Infotypes, enterprise services, SD, MM, FI, HR, Banking, and ReFX, including design reviews, feasibility checks, object tracking, testing, support, and go-live activities.
+
+Awards and recognition:
+- Winner of Google TensorFlow IoT Challenge at SAP Labs.
+- What the Hack 2.0 finalist for real-time speech and predictive analytics.
+- Nominated for THE TITAN - CD BLR LOB 2016 Awards.
+- Multiple SAP Labs performance and peer-to-peer awards.
+- Appreciation notes from Deloitte and ENTEG.
+- SAP Community Silver contributor.
 
 Certifications:
 - SAP Certified Professional - Solution Architect - SAP BTP (P_BTPA_2408).

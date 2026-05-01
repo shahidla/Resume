@@ -29,6 +29,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://shahidla.github.io/Resume/projects/stockland-planning.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shahidla.github.io/Resume/projects/sap-labs-product-engineering.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://shahidla.github.io/Resume/blogs/event-driven-cap-kyma-ai.html</loc>
     <priority>0.7</priority>
   </url>
